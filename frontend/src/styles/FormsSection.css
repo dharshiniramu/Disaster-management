@@ -1,0 +1,43 @@
+.forms-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fdfdfd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.form-tabs button {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 8px 12px; /* Reduced padding for smaller size */
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px; /* Smaller font size */
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.form-tabs button.active {
+    background: #333;
+    color: white;
+}
+
+.form-tabs button:hover {
+    background: #555;
+    color: white;
+}
+
+.form-content {
+    padding: 15px;
+}

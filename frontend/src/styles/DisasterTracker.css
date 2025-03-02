@@ -1,0 +1,78 @@
+.disaster-tracker-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.filter-group, .search-group, .sort-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+select, input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.disaster-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.disaster-table th {
+    background: #4c9aff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.disaster-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.empty-message {
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+    color: gray;
+}
+
+.category {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.category.ongoing {
+    
+    color: black;
+}
+
+.category.past {
+    
+    color: black;
+}
